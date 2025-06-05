@@ -1,0 +1,14 @@
+{
+  "totalScore": 0,
+  "lessonsCompleted": [],
+  "lessonScores": {},
+  "categoryProgress": {
+    "1": {"completed": 0, "total": 3, "score": 0},
+    "2": {"completed": 0, "total": 3, "score": 0},
+    "3": {"completed": 0, "total": 3, "score": 0},
+    "4": {"completed": 0, "total": 3, "score": 0}
+  },
+  "achievements": [],
+  "streakDays": 0,
+  "lastPlayedDate": null
+} 

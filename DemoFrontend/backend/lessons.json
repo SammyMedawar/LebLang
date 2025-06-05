@@ -1,0 +1,98 @@
+[
+  {
+    "id": 1,
+    "categoryId": 1,
+    "title": "Hello & Goodbye",
+    "titleArabic": "مرحبا ووداعا",
+    "description": "Basic greeting words",
+    "questions": [1, 2, 3, 4, 5]
+  },
+  {
+    "id": 2,
+    "categoryId": 1,
+    "title": "How are you?",
+    "titleArabic": "كيفك؟",
+    "description": "Asking about wellbeing",
+    "questions": [6, 7, 8, 9, 10]
+  },
+  {
+    "id": 3,
+    "categoryId": 1,
+    "title": "Please & Thank you",
+    "titleArabic": "من فضلك وشكرا",
+    "description": "Polite expressions",
+    "questions": [11, 12, 13, 14, 15]
+  },
+  {
+    "id": 4,
+    "categoryId": 2,
+    "title": "Parents & Siblings",
+    "titleArabic": "الوالدين والأشقاء",
+    "description": "Immediate family members",
+    "questions": [16, 17, 18, 19, 20]
+  },
+  {
+    "id": 5,
+    "categoryId": 2,
+    "title": "Extended Family",
+    "titleArabic": "العائلة الممتدة",
+    "description": "Aunts, uncles, cousins",
+    "questions": [21, 22, 23, 24, 25]
+  },
+  {
+    "id": 6,
+    "categoryId": 2,
+    "title": "Age & Gender",
+    "titleArabic": "العمر والجنس",
+    "description": "Describing people",
+    "questions": [26, 27, 28, 29, 30]
+  },
+  {
+    "id": 7,
+    "categoryId": 3,
+    "title": "Lebanese Dishes",
+    "titleArabic": "الأطباق اللبنانية",
+    "description": "Traditional Lebanese food",
+    "questions": [31, 32, 33, 34, 35]
+  },
+  {
+    "id": 8,
+    "categoryId": 3,
+    "title": "Beverages",
+    "titleArabic": "المشروبات",
+    "description": "Drinks and beverages",
+    "questions": [36, 37, 38, 39, 40]
+  },
+  {
+    "id": 9,
+    "categoryId": 3,
+    "title": "At the Restaurant",
+    "titleArabic": "في المطعم",
+    "description": "Ordering food",
+    "questions": [41, 42, 43, 44, 45]
+  },
+  {
+    "id": 10,
+    "categoryId": 4,
+    "title": "Numbers 1-10",
+    "titleArabic": "الأرقام ١-١٠",
+    "description": "Basic counting",
+    "questions": [46, 47, 48, 49, 50]
+  },
+  {
+    "id": 11,
+    "categoryId": 4,
+    "title": "Numbers 11-20",
+    "titleArabic": "الأرقام ١١-٢٠",
+    "description": "Teen numbers",
+    "questions": [51, 52, 53, 54, 55]
+  },
+  {
+    "id": 12,
+    "categoryId": 4,
+    "title": "Tens & Hundreds",
+    "titleArabic": "العشرات والمئات",
+    "description": "Larger numbers",
+    "questions": [56, 57, 58, 59, 60]
+  }
+] 

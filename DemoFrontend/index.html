@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LebLang - Learn Lebanese Arabic</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="app-container">
+        <!-- Header -->
+        <header class="header">
+            <div class="header-content">
+                <div class="logo">
+                    <h1>🇱🇧 LebLang</h1>
+                    <p>Learn Lebanese Arabic</p>
+                </div>
+                <div class="user-stats">
+                    <div class="stat">
+                        <span class="stat-icon">🏆</span>
+                        <span class="stat-value" id="totalScore">0</span>
+                    </div>
+                    <div class="stat">
+                        <span class="stat-icon">🔥</span>
+                        <span class="stat-value" id="streakDays">0</span>
+                    </div>
+                </div>
+            </div>
+        </header>
+
+        <!-- Main Content -->
+        <main class="main-content">
+            <div class="welcome-section">
+                <h2>Welcome to Lebanese Arabic Learning!</h2>
+                <p class="welcome-text">أهلا وسهلا! Start your journey to learn Lebanese Arabic with interactive lessons.</p>
+            </div>
+
+            <!-- Categories Grid -->
+            <div class="categories-container">
+                <h3>Choose a Category</h3>
+                <div class="categories-grid" id="categoriesGrid">
+                    <!-- Categories will be loaded here -->
+                </div>
+            </div>
+
+            <!-- Progress Overview -->
+            <div class="progress-overview">
+                <h3>Your Progress</h3>
+                <div class="progress-stats" id="progressStats">
+                    <!-- Progress stats will be loaded here -->
+                </div>
+            </div>
+        </main>
+
+        <!-- Custom Modal for notifications -->
+        <div id="customModal" class="modal">
+            <div class="modal-content">
+                <span class="close-modal">&times;</span>
+                <div class="modal-body">
+                    <h3 id="modalTitle">Notification</h3>
+                    <p id="modalMessage">Message content</p>
+                    <button id="modalOkBtn" class="btn btn-primary">OK</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html> 

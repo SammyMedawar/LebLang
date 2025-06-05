@@ -1,0 +1,168 @@
+[
+  {
+    "id": 1,
+    "lessonId": 1,
+    "type": "multiple_choice",
+    "question": "What does 'مرحبا' (marhaba) mean?",
+    "questionArabic": "شو معنى 'مرحبا'؟",
+    "options": ["Hello", "Goodbye", "Thank you", "Please"],
+    "optionsArabic": ["مرحبا", "مع السلامة", "شكرا", "من فضلك"],
+    "correctAnswer": 0,
+    "explanation": "'مرحبا' (marhaba) is the most common way to say hello in Lebanese Arabic",
+    "explanationArabic": "'مرحبا' هي الطريقة الأكثر شيوعا لقول مرحبا باللهجة اللبنانية"
+  },
+  {
+    "id": 2,
+    "lessonId": 1,
+    "type": "translation",
+    "question": "Translate to Lebanese Arabic: 'Hello'",
+    "questionArabic": "ترجم إلى اللهجة اللبنانية: 'Hello'",
+    "correctAnswer": "مرحبا",
+    "correctAnswerLatin": "marhaba",
+    "acceptedAnswers": ["مرحبا", "marhaba", "أهلا", "ahla"],
+    "explanation": "Hello in Lebanese Arabic is 'مرحبا' (marhaba) or 'أهلا' (ahla)",
+    "explanationArabic": "مرحبا باللهجة اللبنانية هي 'مرحبا' أو 'أهلا'"
+  },
+  {
+    "id": 3,
+    "lessonId": 1,
+    "type": "fill_blank",
+    "question": "Complete: '_____ وسهلا' (_____ wa sahla)",
+    "questionArabic": "أكمل: '_____ وسهلا'",
+    "correctAnswer": "أهلا",
+    "correctAnswerLatin": "ahla",
+    "explanation": "'أهلا وسهلا' (ahla wa sahla) means 'welcome'",
+    "explanationArabic": "'أهلا وسهلا' تعني 'أهلا وسهلا'"
+  },
+  {
+    "id": 4,
+    "lessonId": 1,
+    "type": "multiple_choice",
+    "question": "How do you say 'Goodbye' in Lebanese Arabic?",
+    "questionArabic": "كيف تقول 'وداعا' باللهجة اللبنانية؟",
+    "options": ["مرحبا", "مع السلامة", "شكرا", "عفوا"],
+    "optionsLatin": ["marhaba", "ma3 salameh", "shukran", "3afwan"],
+    "correctAnswer": 1,
+    "explanation": "'مع السلامة' (ma3 salameh) means goodbye",
+    "explanationArabic": "'مع السلامة' تعني وداعا"
+  },
+  {
+    "id": 5,
+    "lessonId": 1,
+    "type": "matching",
+    "question": "Match the Arabic with English",
+    "questionArabic": "طابق العربية مع الإنجليزية",
+    "pairs": [
+      {"arabic": "مرحبا", "latin": "marhaba", "english": "Hello"},
+      {"arabic": "مع السلامة", "latin": "ma3 salameh", "english": "Goodbye"},
+      {"arabic": "أهلا", "latin": "ahla", "english": "Hi"}
+    ]
+  },
+  {
+    "id": 6,
+    "lessonId": 2,
+    "type": "multiple_choice",
+    "question": "What does 'كيفك؟' (kifak?) mean?",
+    "questionArabic": "شو معنى 'كيفك؟'؟",
+    "options": ["What's your name?", "How are you?", "Where are you?", "What time is it?"],
+    "optionsArabic": ["شو اسمك؟", "كيفك؟", "وين انت؟", "أديش الساعة؟"],
+    "correctAnswer": 1,
+    "explanation": "'كيفك؟' (kifak?) means 'How are you?' (to a male)",
+    "explanationArabic": "'كيفك؟' تعني 'كيف حالك؟' (للذكر)"
+  },
+  {
+    "id": 7,
+    "lessonId": 2,
+    "type": "multiple_choice",
+    "question": "How do you ask 'How are you?' to a female?",
+    "questionArabic": "كيف تسأل 'كيف حالك؟' للأنثى؟",
+    "options": ["كيفك؟", "كيفِك؟", "كيف حالك؟", "شلونك؟"],
+    "optionsLatin": ["kifak?", "kifik?", "kif halak?", "shlonak?"],
+    "correctAnswer": 1,
+    "explanation": "'كيفِك؟' (kifik?) is used when asking a female 'How are you?'",
+    "explanationArabic": "'كيفِك؟' تستعمل عند سؤال الأنثى 'كيف حالك؟'"
+  },
+  {
+    "id": 8,
+    "lessonId": 2,
+    "type": "translation",
+    "question": "Translate: 'I'm fine, thank you'",
+    "questionArabic": "ترجم: 'أنا بخير، شكرا'",
+    "correctAnswer": "منيح، شكرا",
+    "correctAnswerLatin": "mnih, shukran",
+    "acceptedAnswers": ["منيح شكرا", "mnih shukran", "تمام شكرا", "tamam shukran"],
+    "explanation": "'منيح، شكرا' (mnih, shukran) means 'I'm fine, thank you'",
+    "explanationArabic": "'منيح، شكرا' تعني 'أنا بخير، شكرا'"
+  },
+  {
+    "id": 9,
+    "lessonId": 2,
+    "type": "fill_blank",
+    "question": "Complete: 'أنا _____' (ana _____) - 'I am fine'",
+    "questionArabic": "أكمل: 'أنا _____' - 'أنا بخير'",
+    "correctAnswer": "منيح",
+    "correctAnswerLatin": "mnih",
+    "explanation": "'منيح' (mnih) means 'fine' or 'good'",
+    "explanationArabic": "'منيح' تعني 'بخير' أو 'جيد'"
+  },
+  {
+    "id": 10,
+    "lessonId": 2,
+    "type": "multiple_choice",
+    "question": "What's a common response to 'كيفك؟'?",
+    "questionArabic": "شو جواب شائع لـ 'كيفك؟'؟",
+    "options": ["مرحبا", "منيح الحمد لله", "مع السلامة", "أهلا وسهلا"],
+    "optionsLatin": ["marhaba", "mnih alhamdulillah", "ma3 salameh", "ahla wa sahla"],
+    "correctAnswer": 1,
+    "explanation": "'منيح الحمد لله' (mnih alhamdulillah) means 'Fine, thank God'",
+    "explanationArabic": "'منيح الحمد لله' تعني 'بخير الحمد لله'"
+  },
+  {
+    "id": 16,
+    "lessonId": 4,
+    "type": "multiple_choice",
+    "question": "What does 'بابا' (baba) mean?",
+    "questionArabic": "شو معنى 'بابا'؟",
+    "options": ["Mother", "Father", "Brother", "Sister"],
+    "optionsArabic": ["أم", "أب", "أخ", "أخت"],
+    "correctAnswer": 1,
+    "explanation": "'بابا' (baba) means 'father' or 'dad'",
+    "explanationArabic": "'بابا' تعني 'أب' أو 'والد'"
+  },
+  {
+    "id": 17,
+    "lessonId": 4,
+    "type": "multiple_choice",
+    "question": "How do you say 'mother' in Lebanese Arabic?",
+    "questionArabic": "كيف تقول 'أم' باللهجة اللبنانية؟",
+    "options": ["بابا", "ماما", "أخت", "تيتا"],
+    "optionsLatin": ["baba", "mama", "ukht", "teta"],
+    "correctAnswer": 1,
+    "explanation": "'ماما' (mama) means 'mother' or 'mom'",
+    "explanationArabic": "'ماما' تعني 'أم' أو 'والدة'"
+  },
+  {
+    "id": 31,
+    "lessonId": 7,
+    "type": "multiple_choice",
+    "question": "What is 'حمص' (hummus)?",
+    "questionArabic": "شو هو 'حمص'؟",
+    "options": ["A type of bread", "Chickpea dip", "Grilled meat", "Rice dish"],
+    "optionsArabic": ["نوع من الخبز", "غموس الحمص", "لحم مشوي", "طبق أرز"],
+    "correctAnswer": 1,
+    "explanation": "'حمص' (hummus) is a popular Lebanese chickpea dip",
+    "explanationArabic": "'حمص' هو غموس الحمص اللبناني الشهير"
+  },
+  {
+    "id": 46,
+    "lessonId": 10,
+    "type": "multiple_choice",
+    "question": "What is 'واحد' (wahed) in English?",
+    "questionArabic": "شو معنى 'واحد' بالإنجليزية؟",
+    "options": ["Zero", "One", "Two", "Three"],
+    "optionsArabic": ["صفر", "واحد", "اثنين", "ثلاثة"],
+    "correctAnswer": 1,
+    "explanation": "'واحد' (wahed) means 'one'",
+    "explanationArabic": "'واحد' تعني 'واحد'"
+  }
+] 

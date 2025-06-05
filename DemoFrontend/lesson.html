@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lesson - LebLang</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="app-container">
+        <!-- Header -->
+        <header class="header">
+            <div class="header-content">
+                <div class="logo">
+                    <button class="back-btn" onclick="goBack()">← Back</button>
+                    <div>
+                        <h1 id="lessonTitle">Lesson</h1>
+                        <p id="lessonDescription">Lesson description</p>
+                    </div>
+                </div>
+                <div class="lesson-progress">
+                    <span id="questionCounter">1 / 5</span>
+                    <div class="progress-bar">
+                        <div class="progress-fill" id="lessonProgressFill"></div>
+                    </div>
+                </div>
+            </div>
+        </header>
+
+        <!-- Main Content -->
+        <main class="main-content lesson-content">
+            <!-- Question Container -->
+            <div class="question-container" id="questionContainer">
+                <div class="question-header">
+                    <h2 id="questionText">Question will appear here</h2>
+                    <p id="questionTextArabic" class="arabic-text">النص العربي هنا</p>
+                </div>
+
+                <!-- Question Content Area -->
+                <div class="question-content" id="questionContent">
+                    <!-- Dynamic content based on question type -->
+                </div>
+
+                <!-- Answer Input Area -->
+                <div class="answer-area" id="answerArea">
+                    <!-- Dynamic input based on question type -->
+                </div>
+
+                <!-- Action Buttons -->
+                <div class="question-actions">
+                    <button id="checkAnswerBtn" class="btn btn-primary" disabled>Check Answer</button>
+                    <button id="nextQuestionBtn" class="btn btn-success" style="display: none;">Next Question</button>
+                    <button id="finishLessonBtn" class="btn btn-success" style="display: none;">Finish Lesson</button>
+                </div>
+
+                <!-- Feedback Area -->
+                <div class="feedback-area" id="feedbackArea" style="display: none;">
+                    <div class="feedback-content">
+                        <div class="feedback-icon" id="feedbackIcon">✓</div>
+                        <h3 id="feedbackTitle">Correct!</h3>
+                        <p id="feedbackExplanation">Explanation will appear here</p>
+                        <p id="feedbackExplanationArabic" class="arabic-text">الشرح بالعربية</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Lesson Complete Screen -->
+            <div class="lesson-complete" id="lessonComplete" style="display: none;">
+                <div class="complete-content">
+                    <div class="complete-icon">🎉</div>
+                    <h2>Lesson Complete!</h2>
+                    <p class="arabic-text">أحسنت! درس مكتمل</p>
+                    <div class="lesson-stats">
+                        <div class="stat">
+                            <span class="stat-label">Score</span>
+                            <span class="stat-value" id="lessonScore">0</span>
+                        </div>
+                        <div class="stat">
+                            <span class="stat-label">Accuracy</span>
+                            <span class="stat-value" id="lessonAccuracy">0%</span>
+                        </div>
+                    </div>
+                    <div class="complete-actions">
+                        <button class="btn btn-primary" onclick="goToCategory()">Back to Category</button>
+                        <button class="btn btn-secondary" onclick="restartLesson()">Retry Lesson</button>
+                    </div>
+                </div>
+            </div>
+        </main>
+
+        <!-- Custom Modal -->
+        <div id="customModal" class="modal">
+            <div class="modal-content">
+                <span class="close-modal">&times;</span>
+                <div class="modal-body">
+                    <h3 id="modalTitle">Notification</h3>
+                    <p id="modalMessage">Message content</p>
+                    <button id="modalOkBtn" class="btn btn-primary">OK</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="lesson.js"></script>
+</body>
+</html> 

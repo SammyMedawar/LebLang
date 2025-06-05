@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Category - LebLang</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="app-container">
+        <!-- Header -->
+        <header class="header">
+            <div class="header-content">
+                <div class="logo">
+                    <button class="back-btn" onclick="goHome()">← Back</button>
+                    <div>
+                        <h1 id="categoryTitle">Category</h1>
+                        <p id="categoryDescription">Category description</p>
+                    </div>
+                </div>
+                <div class="user-stats">
+                    <div class="stat">
+                        <span class="stat-icon">🏆</span>
+                        <span class="stat-value" id="totalScore">0</span>
+                    </div>
+                    <div class="stat">
+                        <span class="stat-icon">🔥</span>
+                        <span class="stat-value" id="streakDays">0</span>
+                    </div>
+                </div>
+            </div>
+        </header>
+
+        <!-- Main Content -->
+        <main class="main-content">
+            <div class="category-header">
+                <div class="category-icon" id="categoryIcon">📚</div>
+                <h2 id="categoryName">Category Name</h2>
+                <p id="categoryDescriptionFull">Full category description</p>
+            </div>
+
+            <!-- Lessons Grid -->
+            <div class="lessons-container">
+                <h3>Lessons</h3>
+                <div class="lessons-grid" id="lessonsGrid">
+                    <!-- Lessons will be loaded here -->
+                </div>
+            </div>
+
+            <!-- Category Progress -->
+            <div class="category-progress">
+                <h3>Progress in this Category</h3>
+                <div class="progress-bar">
+                    <div class="progress-fill" id="categoryProgressFill"></div>
+                </div>
+                <p class="progress-text" id="categoryProgressText">0 of 0 lessons completed</p>
+            </div>
+        </main>
+
+        <!-- Custom Modal -->
+        <div id="customModal" class="modal">
+            <div class="modal-content">
+                <span class="close-modal">&times;</span>
+                <div class="modal-body">
+                    <h3 id="modalTitle">Notification</h3>
+                    <p id="modalMessage">Message content</p>
+                    <button id="modalOkBtn" class="btn btn-primary">OK</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="category.js"></script>
+</body>
+</html> 

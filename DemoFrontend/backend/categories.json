@@ -1,0 +1,42 @@
+[
+  {
+    "id": 1,
+    "name": "Basic Greetings",
+    "nameArabic": "التحيات الأساسية",
+    "description": "Learn essential greetings in Lebanese Arabic",
+    "descriptionArabic": "تعلم التحيات الأساسية باللهجة اللبنانية",
+    "icon": "👋",
+    "color": "#4CAF50",
+    "lessons": [1, 2, 3]
+  },
+  {
+    "id": 2,
+    "name": "Family & People",
+    "nameArabic": "العائلة والناس",
+    "description": "Words for family members and people",
+    "descriptionArabic": "كلمات لأفراد العائلة والناس",
+    "icon": "👨‍👩‍👧‍👦",
+    "color": "#2196F3",
+    "lessons": [4, 5, 6]
+  },
+  {
+    "id": 3,
+    "name": "Food & Drinks",
+    "nameArabic": "الطعام والشراب",
+    "description": "Learn about Lebanese food and beverages",
+    "descriptionArabic": "تعلم عن الطعام والمشروبات اللبنانية",
+    "icon": "🍽️",
+    "color": "#FF9800",
+    "lessons": [7, 8, 9]
+  },
+  {
+    "id": 4,
+    "name": "Numbers",
+    "nameArabic": "الأرقام",
+    "description": "Count from 1 to 100 in Lebanese Arabic",
+    "descriptionArabic": "العد من ١ إلى ١٠٠ باللهجة اللبنانية",
+    "icon": "🔢",
+    "color": "#9C27B0",
+    "lessons": [10, 11, 12]
+  }
+] 
