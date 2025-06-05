@@ -123,4 +123,9 @@ artifacts/
 
 # Misc
 *.swp
-*.bak 
+*.bak
+
+# Configuration
+appsettings.json
+appsettings.*.json
+appsettings.Development.json 
